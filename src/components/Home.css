@@ -1,0 +1,257 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h1{
+    margin: 10px;
+}
+
+
+.left-container, .title-container, .select-container,.right-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px;
+
+}
+
+
+select{
+    outline: none;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.button-container{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.header-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 2px;
+    outline: 20px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color:rgb(0, 174, 255);
+    padding: 0px 20px 0px 20px;
+}
+
+.save{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    margin: 20px;
+}
+
+.box-container button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
+
+span{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.middle-container h5{
+    background-color: rgb(199, 230, 243);
+}
+
+.list-container li{
+    list-style: none;
+}
+
+li:before{
+    content: "✓";
+    color: lightgreen;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+img{
+    height: 50px;
+}
+
+
+
+
+legend{
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+fieldset, .shopify-container,.advanced-container{
+    border-color: antiquewhite;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.basic-field{
+    border-color: rgb(61, 127, 185);
+    border-radius: 20px;
+}
+
+.button-section{
+    text-align: center;
+}
+
+.templates{
+    display: none;
+}
+
+.nav{
+    margin-top: 10px;
+}
+
+.button{
+    display: none;
+}
+
+@media  screen and (min-width:577px) and (max-width:767px) {
+    .select-container,.header-section-container,.right-container h1{
+        display: none;
+    }
+    .button{
+        display: block;
+    }
+
+    .right-container button{
+        background-color: white;
+        border-width: 0px;
+        text-decoration: underline;
+        color: black;
+        font-size: larger;
+    }
+    
+    .templates{
+        display: flex;
+        
+    }
+
+    fieldset{
+        border-radius: 0px;
+        padding: 0px 60px 0px 60px;
+        background-color: white;
+        margin: 0px;
+        
+    }
+
+    fieldset h1{
+        background-color: white;
+        padding: 0px 30px;
+    }
+
+    nav{
+        padding: 10px;
+    }
+
+    img{
+        height: 50px;
+    }
+
+
+
+    .field-advanced-container,.field-shopify-container{
+        display: none;
+    }
+
+    .basic-field legend{
+        display: none;
+    }
+
+    .basic-field{
+        border-color: white;
+        padding: auto;
+        border: transparent;
+    }
+
+    .top-container {
+        display: none;
+    }
+
+    .middle-container h1{
+        font-size: 90px;
+        padding-top: 0px;
+
+    }
+
+    .middle-container span{
+        font-size: 40px;
+    }
+
+    .middle-container h5{
+        font-size: 25px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .basic-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-container{
+        font-size: 30px;
+    }
+
+    .home-container{
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-container{
+        height: auto!important;
+        width: auto!important;
+    }
+
+
+    .basic{
+        border-color: rgb(90, 173, 173);
+    }
+
+
+}
